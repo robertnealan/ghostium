@@ -1,0 +1,5 @@
+<ul role="navigation" class="drawer-list">
+	{{#foreach navigation}}
+		<li class="drawer-list-item{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+	{{/foreach}}
+</ul>
